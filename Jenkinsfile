@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("hello-node")
+        app = docker.build("academy.github.io/hello-node")
     }
 
     stage('Test image') {
